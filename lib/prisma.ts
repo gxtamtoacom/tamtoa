@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client'
-import { PrismaAccelerate } from '@prisma/accelerate'
+import { PrismaAccelerate } from '@prisma/extension-accelerate'
 
 const accelerate = new PrismaAccelerate()
 const prismaClientSingleton = () => {
